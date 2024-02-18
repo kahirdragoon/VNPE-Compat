@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Hemogen Extractor</li>
+    </mods>
+    <match  Class="PatchOperationAdd">
+        <xpath>Defs/ThingDef[defName="HemogenExtractor"]/comps</xpath>
+        <value>
+          <li Class="PipeSystem.CompProperties_Resource">
+            <pipeNet>VNPE_NutrientPasteNet</pipeNet>
+          </li>
+        </value>
+    </match >
+  </Operation>
+</Patch>

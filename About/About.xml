@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>VNPE - BioReactor and Hemogen Extractor</name>
+	<author>KahirDragoon</author>
+	<supportedVersions>
+		<li>1.4</li>
+	</supportedVersions>
+	<packageId>kahirdragoon.VNPEBioReactor</packageId>
+	<description>
+        Hooks up the Bioreactor and Hemogen Extractor to the nutrient paste network.
+	</description>
+	<modDependencies>
+        <li>
+			<packageId>VanillaExpanded.VNutrientE</packageId>
+			<displayName>Vanilla Nutrient Paste Expanded</displayName>
+			<steamWorkshopUrl>steam://url/CommunityFilePage/2920385763</steamWorkshopUrl>
+		</li>
+	</modDependencies>
+	<loadAfter>
+		<li>VanillaExpanded.VNutrientE</li>
+		<li>Solaris.BioReactor</li>
+		<li>uveren.hemogenextractor</li>
+	</loadAfter>
+</ModMetaData>
